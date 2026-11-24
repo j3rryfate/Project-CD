@@ -17,7 +17,7 @@ class Bot(Client):
             api_hash=Config.API_HASH,
             bot_token=Config.TG_BOT_TOKEN,
             plugins=plugins,
-            workdir=Config.WORK_DIR,
+            in_memory=True,
             workers=100
         )
 
